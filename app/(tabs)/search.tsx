@@ -1,12 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Onboarding = () => {
+const search = () => {
   return (
     <View>
-      <Text>onboarding</Text>
+      <Text>search</Text>
     </View>
   )
 }
 
-export default Onboarding;
+export default search
