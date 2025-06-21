@@ -39,9 +39,7 @@ export default function Index() {
               onPress={() => router.push("/search")}
               placeholder="Search for a movie"
             />
-            <>
-            <Text className="text-white">Latest Movies</Text>
-            </>
+            <Text className="text-white text-lg font-bold mt-5 mb-3">Latest Movies</Text>
           </View>
         )}
       </ScrollView>
