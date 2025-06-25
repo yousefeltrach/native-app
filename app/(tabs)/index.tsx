@@ -53,7 +53,6 @@ export default function Index() {
                      <FlatList
                         data={movies}
                         renderItem={({ item }) => (
-                          // <Text className="text-white text-sm">{item.title}</Text>
                           <MovieCard
                           {...item}
                           />
